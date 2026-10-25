@@ -2,7 +2,7 @@ const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);const e
 const serviceMeta={
 'आधार सेवाएँ':['icon-01.png','popular'],'पैन सेवाएँ':['icon-07.png','popular'],'प्रमाण पत्र सेवाएँ':['icon-12.png','gov'],'बैंकिंग सेवाएँ':['icon-08.png','popular'],'किसान सेवाएँ':['icon-11.png','gov'],'बीमा सेवाएँ':['icon-17.png','digital'],'टैक्स एवं GST':['icon-24.png','gov'],'शिक्षा एवं छात्र':['icon-28.png','digital'],'यातायात सेवाएँ':['icon-16.png','digital'],'वाहन सेवाएँ':['icon-16.png','digital'],'संपत्ति एवं भूमि':['icon-10.png','gov'],'कानूनी सेवाएँ':['icon-33.png','gov'],'स्वास्थ्य सेवाएँ':['icon-15.png','gov'],'डिजिटल सेवाएँ':['icon-32.png','digital'],'अन्य नागरिक सेवाएँ':['icon-36.png','new'],'मोबाइल रिचार्ज':['icon-19.png','digital'],'बिजली बिल भुगतान':['icon-21.png','digital'],'पानी बिल भुगतान':['icon-23.png','digital'],'यात्रा टिकट':['icon-31.png','digital'],'सरकारी योजना':['icon-11.png','gov'],'ई-गवर्नेंस सेवाएँ':['icon-32.png','new'],'डाक एवं कुरियर':['icon-35.png','digital'],'पेंशन सेवाएँ':['icon-18.png','gov'],'परिवार रजिस्टर':['icon-03.png','gov']};function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2600)}
 const BACKEND_KEY='angelBackendUrl';
-const BACKEND_PRODUCTION_URL='https://angelstore-csc-project4.onrender.com';
+const BACKEND_PRODUCTION_URL='https://angelestore.onrender.com';
 const host=location.hostname;
 const isProductionFrontend=host.endsWith('angelcsc.in')||host.endsWith('netlify.app');
 const BACKEND_DEFAULT=(location.protocol==='file:'||host==='127.0.0.1'||host==='localhost')?'http://127.0.0.1:8000':(isProductionFrontend?BACKEND_PRODUCTION_URL:location.origin);
