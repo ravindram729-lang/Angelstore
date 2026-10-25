@@ -1,0 +1,131 @@
+{
+  "step": "STEP475",
+  "generated_at": "2026-10-02T17:59:16.441Z",
+  "verdict": "BLOCKED",
+  "blocking_failures": [
+    "production ops audit"
+  ],
+  "configuration_gate": {
+    "name": "Production configuration gates",
+    "ok": false,
+    "detail": "Failures: Production mode, Auth secret length, Auth secret entropy, Admin username configured, Admin username not known fallback, Admin password length, Admin password not known fallback, CORS restricted, Persistent storage configured, Scheduled backup configured, Off-site backup configured, Alert webhook configured"
+  },
+  "results": [
+    {
+      "name": "Required artifact: server.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: app.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: customer.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: admin.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: customer.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: staff.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: index.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: package.json",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: render.yaml",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: PRODUCTION-PREFLIGHT.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: FINAL-RELEASE-AUDIT.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Required artifact: PRODUCTION-OPS-AUDIT.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "npm check",
+      "ok": true,
+      "exit": 0,
+      "stdout": "\n> angelstore-csc-local@3.0.6 check\n> node --check server.js && node --check app.js\n\n",
+      "stderr": ""
+    },
+    {
+      "name": "release audit",
+      "ok": true,
+      "exit": 0,
+      "stdout": ": server.js\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: storage.js\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: service-catalog.js\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: index.html\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: customer.html\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: admin.html\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: staff.html\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: app.js\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: style.css\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: .env.example\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: render.yaml\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: PRODUCTION-PREFLIGHT.js\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: PHASE-34-SECURITY-ABUSE-AUDIT.md\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"File: PHASE-33-BACKUP-RESTORE-CONCURRENCY.md\",\n      \"ok\": true,\n      \"detail\": \"Required release artifact\"\n    },\n    {\n      \"name\": \"package.json parse\",\n      \"ok\": true,\n      \"detail\": \"\"\n    },\n    {\n      \"name\": \"Start command\",\n      \"ok\": true,\n      \"detail\": \"{\\\"start\\\":\\\"node server.js\\\",\\\"check\\\":\\\"node --check server.js && node --check app.js\\\",\\\"e2e\\\":\\\"node E2E-TEST.js\\\",\\\"preflight\\\":\\\"node PRODUCTION-PREFLIGHT.js\\\",\\\"release-audit\\\":\\\"node FINAL-RELEASE-AUDIT.js\\\",\\\"deployment-verify\\\":\\\"node PRODUCTION-DEPLOYMENT-VERIFY.js\\\",\\\"ops-audit\\\":\\\"node PRODUCTION-OPS-AUDIT.js\\\",\\\"p0-p1-regression\\\":\\\"node P0-P1-REGRESSION-TEST.js\\\",\\\"release-gate\\\":\\\"node STEP475_PRODUCTION_RELEASE_GATE.js\\\"}\"\n    },\n    {\n      \"name\": \"Preflight script\",\n      \"ok\": true,\n      \"detail\": \"Production preflight available\"\n    },\n    {\n      \"name\": \"Release audit script\",\n      \"ok\": true,\n      \"detail\": \"Final audit available\"\n    },\n    {\n      \"name\": \"Production config gate\",\n      \"ok\": true,\n      \"detail\": \"Invalid production configuration blocks startup\"\n    },\n    {\n      \"name\": \"Strong production auth secret gate\",\n      \"ok\": true,\n      \"detail\": \"Minimum auth secret length enforced\"\n    },\n    {\n      \"name\": \"Explicit production CORS gate\",\n      \"ok\": true,\n      \"detail\": \"Explicit HTTPS origin(s) required; wildcard CORS is forbidden\"\n    },\n    {\n      \"name\": \"Session expiry/revocation\",\n      \"ok\": true,\n      \"detail\": \"Session records checked\"\n    },\n    {\n      \"name\": \"Payload limit\",\n      \"ok\": true,\n      \"detail\": \"15 MB request body guard\"\n    },\n    {\n      \"name\": \"Security headers\",\n      \"ok\": true,\n      \"detail\": \"Security response headers present\"\n    },\n    {\n      \"name\": \"Static sensitive-file blocking\",\n      \"ok\": true,\n      \"detail\": \"Sensitive static paths blocked\"\n    },\n    {\n      \"name\": \"UTR validation\",\n      \"ok\": true,\n      \"detail\": \"UTR validation/duplicate protection present\"\n    },\n    {\n      \"name\": \"Token/payment duplicate protection\",\n      \"ok\": true,\n      \"detail\": \"Conflict responses and payment-token linkage present\"\n    },\n    {\n      \"name\": \"Monitoring/incident system\",\n      \"ok\": true,\n      \"detail\": \"Monitoring and incident reconciliation present\"\n    },\n    {\n      \"name\": \"Backup restore\",\n      \"ok\": true,\n      \"detail\": \"Managed backup/restore logic present\"\n    },\n    {\n      \"name\": \"Frontend backend URL handling\",\n      \"ok\": true,\n      \"detail\": \"Frontend backend URL configuration present\"\n    },\n    {\n      \"name\": \"Service catalog present\",\n      \"ok\": true,\n      \"detail\": \"service catalog sections=25\"\n    },\n    {\n      \"name\": \"Render health check\",\n      \"ok\": true,\n      \"detail\": \"Render health endpoint configured\"\n    },\n    {\n      \"name\": \"Render persistent disk\",\n      \"ok\": true,\n      \"detail\": \"Persistent disk configured\"\n    },\n    {\n      \"name\": \"Render production mode\",\n      \"ok\": true,\n      \"detail\": \"Production environment configured\"\n    },\n    {\n      \"name\": \"No node_modules in release\",\n      \"ok\": true,\n      \"detail\": \"Dependencies installed by deployment build\"\n    },\n    {\n      \"name\": \"Runtime health\",\n      \"ok\": true,\n      \"detail\": \"status=200\"\n    },\n    {\n      \"name\": \"Runtime public services\",\n      \"ok\": true,\n      \"detail\": \"status=200\"\n    },\n    {\n      \"name\": \"Runtime admin protected\",\n      \"ok\": true,\n      \"detail\": \"status=401\"\n    },\n    {\n      \"name\": \"Runtime static traversal blocked\",\n      \"ok\": true,\n      \"detail\": \"status=403\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "production ops audit",
+      "ok": false,
+      "exit": 1,
+      "stdout": "{\n  \"ok\": false,\n  \"production\": false,\n  \"generated_at\": \"2026-10-02T17:59:16.437Z\",\n  \"checks\": [\n    {\n      \"name\": \"Production mode\",\n      \"ok\": false,\n      \"detail\": \"NODE_ENV=production is required on the hosted service.\"\n    },\n    {\n      \"name\": \"Auth secret length\",\n      \"ok\": false,\n      \"detail\": \"Use a random secret of at least 32 characters.\"\n    },\n    {\n      \"name\": \"Auth secret entropy\",\n      \"ok\": false,\n      \"detail\": \"Avoid short/repetitive secrets; use a password manager or secret generator.\"\n    },\n    {\n      \"name\": \"Admin username configured\",\n      \"ok\": false,\n      \"detail\": \"ANGELSTORE_ADMIN_USER must be configured.\"\n    },\n    {\n      \"name\": \"Admin username not known fallback\",\n      \"ok\": false,\n      \"detail\": \"Replace any development/default username before production.\"\n    },\n    {\n      \"name\": \"Admin password length\",\n      \"ok\": false,\n      \"detail\": \"ANGELSTORE_ADMIN_PASS must be at least 12 characters.\"\n    },\n    {\n      \"name\": \"Admin password not known fallback\",\n      \"ok\": false,\n      \"detail\": \"Replace any development/default password before production.\"\n    },\n    {\n      \"name\": \"CORS restricted\",\n      \"ok\": false,\n      \"detail\": \"Use one or more explicit HTTPS frontend origins, comma-separated; never *.\"\n    },\n    {\n      \"name\": \"Persistent storage configured\",\n      \"ok\": false,\n      \"detail\": \"ANGELSTORE_STORAGE_DIR should be an absolute persistent-disk path.\"\n    },\n    {\n      \"name\": \"Scheduled backup configured\",\n      \"ok\": false,\n      \"detail\": \"Enable scheduled backups on the production host.\"\n    },\n    {\n      \"name\": \"Off-site backup configured\",\n      \"ok\": false,\n      \"detail\": \"Configure an authenticated HTTPS off-site backup receiver.\"\n    },\n    {\n      \"name\": \"Alert webhook configured\",\n      \"ok\": false,\n      \"detail\": \"Configure an incident alert webhook if operational notifications are required.\"\n    },\n    {\n      \"name\": \"No secrets in env example\",\n      \"ok\": true,\n      \"detail\": \"Do not commit development credentials to the example environment file.\"\n    }\n  ],\n  \"notes\": [\n    \"This audit never prints secret values.\",\n    \"A passing result means configuration gates pass; it does not verify that the external hosting provider is reachable.\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "Production configuration gates",
+      "ok": false,
+      "detail": "Failures: Production mode, Auth secret length, Auth secret entropy, Admin username configured, Admin username not known fallback, Admin password length, Admin password not known fallback, CORS restricted, Persistent storage configured, Scheduled backup configured, Off-site backup configured, Alert webhook configured"
+    },
+    {
+      "name": "Historical targeted test artifact: STEP465_UPPCL_RECONCILIATION_RECOVERY_E2E.js",
+      "ok": true,
+      "detail": "Presence only; not re-executed by this gate."
+    },
+    {
+      "name": "Historical targeted test artifact: STEP466_GLOBAL_PAYMENT_ARCHITECTURE_E2E.js",
+      "ok": true,
+      "detail": "Presence only; not re-executed by this gate."
+    },
+    {
+      "name": "Historical targeted test artifact: STEP467_GLOBAL_PAYMENT_RECONCILIATION_E2E.js",
+      "ok": true,
+      "detail": "Presence only; not re-executed by this gate."
+    },
+    {
+      "name": "Historical targeted test artifact: STEP468_GLOBAL_RECOVERY_E2E.js",
+      "ok": true,
+      "detail": "Presence only; not re-executed by this gate."
+    },
+    {
+      "name": "Historical targeted test artifact: STEP470_FINANCIAL_LEDGER_E2E.js",
+      "ok": true,
+      "detail": "Presence only; not re-executed by this gate."
+    },
+    {
+      "name": "Historical targeted test artifact: STEP471_FINANCIAL_REPORT_E2E.js",
+      "ok": true,
+      "detail": "Presence only; not re-executed by this gate."
+    }
+  ]
+}

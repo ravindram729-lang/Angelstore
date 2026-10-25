@@ -15,7 +15,7 @@ let server='';try{server=fs.readFileSync(path.join(root,'server.js'),'utf8')}cat
 let app='';try{app=fs.readFileSync(path.join(root,'app.js'),'utf8')}catch{}
 let catalog='';try{catalog=fs.readFileSync(path.join(root,'service-catalog.js'),'utf8')}catch{}
 check('Production config gate',/PRODUCTION_CONFIG_ERROR/.test(server)&&/server\.listen\(/.test(server),'Invalid production configuration blocks startup');
-check('Strong production auth secret gate',/AUTH_SECRET\.length<32/.test(server),'Minimum auth secret length enforced');
+check('Strong production auth secret gate',/CONFIGURED_AUTH_SECRET\.length>=32/.test(server)&&/SECRET_HAS_ENTROPY/.test(server),'Minimum length and character diversity enforced');
 check('Explicit production CORS gate',/VALID_PRODUCTION_ORIGIN/.test(server)&&/FRONTEND_ORIGINS\.every/.test(server)&&/https:/.test(server),'Explicit HTTPS origin(s) required; wildcard CORS is forbidden');
 check('Session expiry/revocation',/revoked_at/.test(server)&&/expires_at/.test(server),'Session records checked');
 check('Payload limit',/15\*1024\*1024/.test(server),'15 MB request body guard');
