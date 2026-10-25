@@ -1,0 +1,5 @@
+<!doctype html><html><body data-panel="admin"><div id="paymentsTable"></div><div id="totalPaid"></div><div id="todayTxn"></div><div id="upiTxn"></div><div id="pendingPay"></div><div id="page-payments"><div class="cards"><article><span></span></article><article><span></span></article><article><span></span></article><article><span></span></article></div></div><script>
+window.fetch=async function(url,opts){ return {ok:true,status:200,json:async()=>({payments:[{id:1,txn_id:'T1',name:'<img src=x onerror=alert(1)>',utr:'U1',amount:75,method:'UPI',created_at:'2026-09-20',status:'Pending Verification',proof_available:false}],total_paid:0,pending_count:1})}; };
+</script><script src="app.js"></script><script>
+setTimeout(async()=>{await loadPayments();document.title=document.querySelector('#paymentsTable').innerHTML;},100);
+</script></body></html>

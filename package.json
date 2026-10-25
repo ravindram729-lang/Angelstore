@@ -1,0 +1,18 @@
+{
+  "name": "angelstore-csc-local",
+  "version": "3.0.6",
+  "private": true,
+  "description": "AngelStore CSC audited local customer/admin portal with service charges and manual payment verification",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js",
+    "e2e": "node E2E-TEST.js",
+    "preflight": "node PRODUCTION-PREFLIGHT.js",
+    "release-audit": "node FINAL-RELEASE-AUDIT.js",
+    "deployment-verify": "node PRODUCTION-DEPLOYMENT-VERIFY.js",
+    "ops-audit": "node PRODUCTION-OPS-AUDIT.js"
+  },
+  "engines": {
+    "node": ">=20 <23"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "service": "आधार सेवाएँ — Aadhaar Address Update",
+  "amount": 75,
+  "applications": 19,
+  "payments": 19,
+  "tokens": 19,
+  "token_race": {
+    "success": 1,
+    "conflict": 19
+  },
+  "duplicate_utr": {
+    "first": 200,
+    "second": 409
+  },
+  "duplicate_token": 409,
+  "integrity": {
+    "ok": true,
+    "missing": [],
+    "duplicate_ids": {},
+    "broken_payment_token_links": 0,
+    "broken_token_payment_links": 0,
+    "orphan_customer_sessions": 0,
+    "counts": {
+      "tokens": 19,
+      "payments": 20,
+      "customers": 19,
+      "applications": 19,
+      "appointments": 0,
+      "staff": 0,
+      "staff_sessions": 0,
+      "admin_sessions": 1,
+      "service_sops": 0,
+      "service_quality": 0,
+      "home_services": 0,
+      "deliveries": 0,
+      "commissions": 0,
+      "settlements": 0,
+      "expenses": 0,
+      "complaints": 0,
+      "audit": 77
+    },
+    "schema_version": 2,
+    "checked_at": "2026-09-20T09:47:53.192Z"
+  },
+  "elapsed_ms": 127.79,
+  "storage_isolated": true,
+  "production_data_used": false
+}

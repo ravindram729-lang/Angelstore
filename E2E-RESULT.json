@@ -1,0 +1,182 @@
+{
+  "started_at": "2026-09-19T02:44:55.348Z",
+  "steps": [
+    {
+      "name": "Health check",
+      "ok": true,
+      "detail": "{\"ok\":true,\"service\":\"angelstore-csc-backend\",\"time\":\"2026-09-19T02:44:55.359Z\",\"environment\":\"local\",\"configuration\":\"ok\"}"
+    },
+    {
+      "name": "Admin login",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Initial integrity",
+      "ok": true,
+      "detail": "{\"ok\":true,\"missing\":[],\"duplicate_ids\":{},\"broken_payment_token_links\":0,\"broken_token_payment_links\":0,\"orphan_customer_sessions\":0,\"counts\":{\"tokens\":0,\"payments\":0,\"customers\":0,\"applications\":0,\"appointments\":0,\"staff\":0,\"staff_sessions\":0,\"admin_sessions\":1,\"service_sops\":0,\"service_quality\":0,\"home_services\":0,\"deliveries\":0,\"commissions\":0,\"settlements\":0,\"expenses\":0,\"complaints\":0,\"audit\":0},\"schema_version\":2,\"checked_at\":\"2026-09-19T02:44:55.368Z\"}"
+    },
+    {
+      "name": "Service catalog",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service charge",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Payable amount",
+      "ok": true,
+      "detail": "75"
+    },
+    {
+      "name": "Customer registration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Customer session",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Application creation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Customer payment submission",
+      "ok": true,
+      "detail": "{\"id\":1789785895418468,\"status\":\"Pending Verification\",\"message\":\"Payment verification pending\"}"
+    },
+    {
+      "name": "Payment pending status",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin proof review",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin payment verification",
+      "ok": true,
+      "detail": "{\"id\":1789785895418468,\"txn_id\":\"PAY-95418468\",\"name\":\"E2E Test Customer\",\"mobile\":\"9000017107\",\"service\":\"आधार सेवाएँ — Aadhaar Address Update\",\"amount\":75,\"method\":\"UPI\",\"utr\":\"E2E-1789785895416\",\"status\":\"Verified\",\"created_at\":\"2026-09-19T02:44:55.418Z\",\"receipt_no\":\"RCP-95418468\",\"token_id\":null,\"reject_reason\":null,\"verified_at\":\"2026-09-19T02:44:55.422Z\",\"proof_available\":true,\"proof_viewed_at\":\"2026-09-19T02:44:55.420Z\",\"official_fee\":0,\"staff_commission\":0,\"payment_charge\":0}"
+    },
+    {
+      "name": "Customer sees verified payment",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Token generation",
+      "ok": true,
+      "detail": "{\"id\":1789785895425445,\"token\":\"AA-001\",\"service\":\"आधार सेवाएँ — Aadhaar Address Update\",\"status\":\"लंबित\",\"created_at\":\"2026-09-19T02:44:55.425Z\",\"date\":\"2026-09-19\",\"application_id\":1789785895415852}"
+    },
+    {
+      "name": "Customer token history",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Staff creation",
+      "ok": true,
+      "detail": "{\"staff_id\":\"STF-0001\",\"employee_id\":\"EMP-0001\",\"name\":\"E2E Test Staff\",\"mobile\":\"9111137897\",\"role\":\"staff\",\"status\":\"active\",\"daily_rate\":300,\"created_at\":\"2026-09-19T02:44:55.462Z\"}"
+    },
+    {
+      "name": "Token assignment",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Staff login",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Staff starts task",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Staff gets SOP",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Quality review pass",
+      "ok": true,
+      "detail": "{\"quality\":{\"id\":1789785895500715,\"token_id\":1789785895425445,\"service\":\"आधार सेवाएँ — Aadhaar Address Update\",\"staff_id\":\"STF-0001\",\"checks\":[{\"id\":\"identity\",\"label\":\"Customer identity/details verified\",\"required\":true,\"checked\":true},{\"id\":\"documents\",\"label\":\"All required documents received and readable\",\"required\":true,\"checked\":true},{\"id\":\"data\",\"label\":\"Entered data cross-checked with documents\",\"required\":true,\"checked\":true},{\"id\":\"fee\",\"label\":\"Applicable fee/charges confirmed\",\"required\":true,\"checked\":true},{\"id\":\"submission\",\"label\":\"Submission/acknowledgement/reference captured\",\"required\":true,\"checked\":true}],\"status\":\"passed\",\"notes\":\"E2E final quality review\",\"updated_at\":\"2026-09-19T02:44:55.500Z\",\"updated_by\":\"EMP-0001\"},\"token\":{\"id\":1789785895425445,\"token\":\"AA-001\",\"name\":\"E2E Test Customer\",\"mobile\":\"9000017107\",\"service\":\"आधार सेवाएँ — Aadhaar Address Update\",\"status\":\"प्रगति\",\"created_at\":\"2026-09-19T02:44:55.425Z\",\"date\":\"2026-09-19\",\"staff_id\":\"STF-0001\",\"assigned_at\":\"2026-09-19T02:44:55.463Z\",\"completed_at\":null,\"quality_status\":\"passed\",\"quality_reviewed_at\":\"2026-09-19T02:44:55.500Z\"}}"
+    },
+    {
+      "name": "Staff completes task",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Customer dashboard",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin customer history",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reports",
+      "ok": true,
+      "detail": "{\"summary\":{\"total\":1,\"completed\":1,\"pending\":0,\"cancelled\":0},\"revenue\":75,\"popular\":{\"service\":\"आधार सेवाएँ — Aadhaar Address Update\"},\"daily\":[{\"d\":\"2026-09-19\",\"n\":1}],\"service_analytics\":[{\"service\":\"आधार सेवाएँ — Aadhaar Address Update\",\"tokens\":1,\"completed\":1,\"pending\":0,\"cancelled\":0,\"verified_collection\":75,\"official_fee\":0,\"staff_commission\":0,\"contribution\":75,\"completion_rate\":100}],\"staff_performance\":[{\"staff_id\":\"STF-0001\",\"employee_id\":\"EMP-0001\",\"name\":\"E2E Test Staff\",\"role\":\"staff\",\"status\":\"active\",\"assigned\":1,\"completed\":1,\"active\":0,\"quality_passed\":1,\"qc_needs_review\":0,\"home_visits\":0,\"deliveries\":0,\"commission\":0,\"completion_rate\":100}],\"control\":{\"period\":{\"from\":\"\",\"to\":\"\"},\"kpis\":{\"tokens\":1,\"active_tokens\":0,\"completed\":1,\"pending_payments\":0,\"unassigned_tokens\":0,\"qc_pending\":0,\"active_staff\":1,\"home_pending\":0,\"open_complaints\":0},\"alerts\":[]}}"
+    },
+    {
+      "name": "Control center",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Finance summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Final integrity",
+      "ok": true,
+      "detail": "{\"ok\":true,\"missing\":[],\"duplicate_ids\":{},\"broken_payment_token_links\":0,\"broken_token_payment_links\":0,\"orphan_customer_sessions\":0,\"counts\":{\"tokens\":1,\"payments\":1,\"customers\":1,\"applications\":1,\"appointments\":0,\"staff\":1,\"staff_sessions\":1,\"admin_sessions\":1,\"service_sops\":0,\"service_quality\":1,\"home_services\":0,\"deliveries\":0,\"commissions\":0,\"settlements\":0,\"expenses\":0,\"complaints\":0,\"audit\":11},\"schema_version\":2,\"checked_at\":\"2026-09-19T02:44:55.506Z\"}"
+    },
+    {
+      "name": "Staff logout",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Revoked staff session",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Customer logout",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Revoked customer session",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin logout",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Revoked admin session",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "ok": true,
+  "finished_at": "2026-09-19T02:44:55.511Z"
+}

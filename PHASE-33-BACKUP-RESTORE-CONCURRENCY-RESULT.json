@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "checks": {
+    "initial_backup": true,
+    "concurrent_writes": 25,
+    "concurrent_backups": 12,
+    "backup_files_valid": true,
+    "manifests_valid": true,
+    "checksums_valid": true,
+    "restore_revokes_concurrent_old_session": true,
+    "backup_after_relogin": true,
+    "original_token_restored": true,
+    "post_backup_mutation_removed": true,
+    "payment_proof_restored": true,
+    "sessions_cleared": true,
+    "integrity": true
+  },
+  "backup_name": "angelstore-2026-09-26T03-37-00-327Z-009b5287.json",
+  "backup_count": 13
+}

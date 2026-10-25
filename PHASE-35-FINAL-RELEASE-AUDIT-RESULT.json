@@ -1,0 +1,201 @@
+{
+  "ok": true,
+  "generated_at": "2026-09-27T07:06:32.944Z",
+  "checks": [
+    {
+      "name": "File: server.js",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: storage.js",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: service-catalog.js",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: index.html",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: customer.html",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: admin.html",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: staff.html",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: app.js",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: style.css",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: .env.example",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: render.yaml",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: PRODUCTION-PREFLIGHT.js",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: PHASE-34-SECURITY-ABUSE-AUDIT.md",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "File: PHASE-33-BACKUP-RESTORE-CONCURRENCY.md",
+      "ok": true,
+      "detail": "Required release artifact"
+    },
+    {
+      "name": "package.json parse",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Start command",
+      "ok": true,
+      "detail": "{\"start\":\"node server.js\",\"check\":\"node --check server.js && node --check app.js\",\"e2e\":\"node E2E-TEST.js\",\"preflight\":\"node PRODUCTION-PREFLIGHT.js\",\"release-audit\":\"node FINAL-RELEASE-AUDIT.js\",\"deployment-verify\":\"node PRODUCTION-DEPLOYMENT-VERIFY.js\",\"ops-audit\":\"node PRODUCTION-OPS-AUDIT.js\"}"
+    },
+    {
+      "name": "Preflight script",
+      "ok": true,
+      "detail": "Production preflight available"
+    },
+    {
+      "name": "Release audit script",
+      "ok": true,
+      "detail": "Final audit available"
+    },
+    {
+      "name": "Production config gate",
+      "ok": true,
+      "detail": "Invalid production configuration blocks startup"
+    },
+    {
+      "name": "Strong production auth secret gate",
+      "ok": true,
+      "detail": "Minimum auth secret length enforced"
+    },
+    {
+      "name": "Explicit production CORS gate",
+      "ok": true,
+      "detail": "Explicit HTTPS origin(s) required; wildcard CORS is forbidden"
+    },
+    {
+      "name": "Session expiry/revocation",
+      "ok": true,
+      "detail": "Session records checked"
+    },
+    {
+      "name": "Payload limit",
+      "ok": true,
+      "detail": "15 MB request body guard"
+    },
+    {
+      "name": "Security headers",
+      "ok": true,
+      "detail": "Security response headers present"
+    },
+    {
+      "name": "Static sensitive-file blocking",
+      "ok": true,
+      "detail": "Sensitive static paths blocked"
+    },
+    {
+      "name": "UTR validation",
+      "ok": true,
+      "detail": "UTR validation/duplicate protection present"
+    },
+    {
+      "name": "Token/payment duplicate protection",
+      "ok": true,
+      "detail": "Conflict responses and payment-token linkage present"
+    },
+    {
+      "name": "Monitoring/incident system",
+      "ok": true,
+      "detail": "Monitoring and incident reconciliation present"
+    },
+    {
+      "name": "Backup restore",
+      "ok": true,
+      "detail": "Managed backup/restore logic present"
+    },
+    {
+      "name": "Frontend backend URL handling",
+      "ok": true,
+      "detail": "Frontend backend URL configuration present"
+    },
+    {
+      "name": "Service catalog present",
+      "ok": true,
+      "detail": "service catalog sections=25"
+    },
+    {
+      "name": "Render health check",
+      "ok": true,
+      "detail": "Render health endpoint configured"
+    },
+    {
+      "name": "Render persistent disk",
+      "ok": true,
+      "detail": "Persistent disk configured"
+    },
+    {
+      "name": "Render production mode",
+      "ok": true,
+      "detail": "Production environment configured"
+    },
+    {
+      "name": "No node_modules in release",
+      "ok": true,
+      "detail": "Dependencies installed by deployment build"
+    },
+    {
+      "name": "Runtime health",
+      "ok": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "Runtime public services",
+      "ok": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "Runtime admin protected",
+      "ok": true,
+      "detail": "status=401"
+    },
+    {
+      "name": "Runtime static traversal blocked",
+      "ok": true,
+      "detail": "status=403"
+    }
+  ]
+}

@@ -1,0 +1,1147 @@
+{
+  "tokens": [
+    {
+      "id": 1790492787008820,
+      "token": "AA-001",
+      "name": "E2E Test Customer",
+      "mobile": "9000067549",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "status": "पूर्ण",
+      "created_at": "2026-09-27T07:06:27.009Z",
+      "date": "2026-09-27",
+      "payment_id": 1790492786253736,
+      "application_id": 1790492786248915,
+      "staff_id": "STF-0002",
+      "assigned_at": "2026-09-27T07:06:27.157Z",
+      "last_action_at": "2026-09-27T07:06:27.158Z",
+      "started_at": "2026-09-27T07:06:27.200Z",
+      "quality_status": "passed",
+      "quality_reviewed_at": "2026-09-27T07:06:27.208Z",
+      "quality_rejection_reason": null,
+      "completed_at": "2026-09-27T07:06:27.210Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1790492786253736,
+      "txn_id": "PAY-86253736",
+      "name": "E2E Test Customer",
+      "mobile": "9000067549",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "amount": 75,
+      "method": "UPI",
+      "utr": "E2E-1790492786252",
+      "screenshot": "/api/payments/proof/139bc2c0-dd98-4f35-b4d8-6134ea7e9009.png",
+      "status": "Verified",
+      "created_at": "2026-09-27T07:06:26.253Z",
+      "receipt_no": "RCP-86253736",
+      "application_id": 1790492786248915,
+      "proof_sha256": "65f6676c466e5c49c052fa233c488ab56557192c7a6298d0252310481c85144a",
+      "screenshot_sha256": "65f6676c466e5c49c052fa233c488ab56557192c7a6298d0252310481c85144a",
+      "verified_by": "ravindram143",
+      "verified_at": "2026-09-27T07:06:26.260Z",
+      "reject_reason": null,
+      "proof_viewed_at": "2026-09-27T07:06:26.256Z",
+      "proof_viewed_by": "ravindram143",
+      "token_id": 1790492787008820,
+      "completed_at": "2026-09-27T07:06:27.210Z",
+      "receipt_generated_at": "2026-09-27T07:06:27.210Z",
+      "completed_by": "EMP-0002",
+      "receipt_generated_at_notified": "2026-09-27T07:06:27.210Z"
+    },
+    {
+      "id": 1790500828586882,
+      "txn_id": "PAY-28586882",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "amount": 75,
+      "method": "UPI",
+      "utr": "123456789012",
+      "screenshot": "/api/payments/proof/2ae8ef68-9c58-46d9-8326-7690f2e7b4fd.jpg",
+      "status": "Verified",
+      "created_at": "2026-09-27T09:20:28.587Z",
+      "receipt_no": null,
+      "application_id": 1790500828553214,
+      "proof_sha256": "afffba1919b1aa64903ff7a33045eebee28d9a80cac29837ce4053cea638f748",
+      "screenshot_sha256": "afffba1919b1aa64903ff7a33045eebee28d9a80cac29837ce4053cea638f748",
+      "verified_by": "ravindram143",
+      "verified_at": "2026-09-27T09:21:39.164Z",
+      "reject_reason": null,
+      "proof_viewed_at": "2026-09-27T09:22:26.580Z",
+      "proof_viewed_by": "ravindram143"
+    },
+    {
+      "id": 1790501069572357,
+      "txn_id": "PAY-69572357",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "amount": 75,
+      "method": "UPI",
+      "utr": "123456789019",
+      "screenshot": "/api/payments/proof/75a86cfd-e3d0-43eb-b1cb-170065e2ac44.jpg",
+      "status": "Verified",
+      "created_at": "2026-09-27T09:24:29.572Z",
+      "receipt_no": null,
+      "application_id": 1790500828553214,
+      "proof_sha256": "65500e96898edf33510bcd7717d4ebf918a6eeb7d251d87bd85c70cf21d2927b",
+      "screenshot_sha256": "65500e96898edf33510bcd7717d4ebf918a6eeb7d251d87bd85c70cf21d2927b",
+      "verified_by": "ravindram143",
+      "verified_at": "2026-09-27T09:24:56.255Z",
+      "reject_reason": null,
+      "proof_viewed_at": "2026-09-27T09:24:51.016Z",
+      "proof_viewed_by": "ravindram143"
+    },
+    {
+      "id": 1790504118379693,
+      "txn_id": "PAY-18379693",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "service": "स्वास्थ्य सेवाएँ — Government health scheme application",
+      "amount": 50,
+      "method": "UPI",
+      "utr": "012345678998",
+      "screenshot": "/api/payments/proof/bbceb183-e438-48e9-a637-9e7d015305ef.jpg",
+      "status": "Verified",
+      "created_at": "2026-09-27T10:15:18.379Z",
+      "receipt_no": null,
+      "application_id": 1790504118348610,
+      "proof_sha256": "60e9e17762dc2f093149aaaf7f4b50e92caaf8ba7ac71c7eaa04fc87fdd3f24b",
+      "screenshot_sha256": "60e9e17762dc2f093149aaaf7f4b50e92caaf8ba7ac71c7eaa04fc87fdd3f24b",
+      "verified_by": "ravindram143",
+      "verified_at": "2026-09-27T10:15:42.460Z",
+      "reject_reason": null,
+      "proof_viewed_at": "2026-09-27T10:15:38.366Z",
+      "proof_viewed_by": "ravindram143"
+    }
+  ],
+  "customers": [
+    {
+      "id": "AS-CUST-3501E9B8",
+      "customer_id": "AS-CUST-3501E9B8",
+      "name": "E2E Test Customer",
+      "mobile": "9000067549",
+      "status": "active",
+      "pin_hash": "dfcabae7cbf9be5d07a31e5b12aa0bf768ce2aa38d516714519dbf6b75f5ece5ed8f81915c4236172da382436305c247a92de444182fcf986603893d2afb11b2",
+      "pin_salt": "afb478d8afaa013e3ac82eb3b371c4c2",
+      "pin_set": true,
+      "created_at": "2026-09-27T07:06:26.240Z",
+      "updated_at": "2026-09-27T09:17:15.953Z"
+    },
+    {
+      "id": "AS-CUST-85E112D0",
+      "customer_id": "AS-CUST-85E112D0",
+      "name": "UTR Only Test",
+      "mobile": "9000045403",
+      "status": "active",
+      "pin_set": false,
+      "created_at": "2026-09-27T07:06:26.263Z",
+      "updated_at": "2026-09-27T09:17:15.953Z"
+    },
+    {
+      "id": 1790500668353133,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "status": "active",
+      "pin_hash": "76aa4ba400cb2ef90fd7b254d222334087d433ff63f3a165ec3a41903de276a3b1e99c62c4ab24e04f3463eedb5453001164c800bba6e3506cd5fc18f4640969",
+      "pin_salt": "d30c9019ac60650d53ae8c78885176cb",
+      "pin_set": true,
+      "created_at": "2026-09-27T09:17:48.353Z",
+      "updated_at": "2026-09-27T10:15:18.347Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": 1790492786248915,
+      "application_id": "APP-0001",
+      "name": "E2E Test Customer",
+      "mobile": "9000067549",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "category": "आधार सेवाएँ",
+      "address": "Test Address",
+      "note": "",
+      "status": "Completed",
+      "created_at": "2026-09-27T07:06:26.248Z",
+      "customer_id": "AS-CUST-3501E9B8"
+    },
+    {
+      "id": 1790492786263373,
+      "application_id": "APP-0002",
+      "name": "UTR Only Test",
+      "mobile": "9000045403",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "category": "आधार सेवाएँ",
+      "address": "UTR Test Address",
+      "note": "",
+      "status": "Payment Pending",
+      "created_at": "2026-09-27T07:06:26.263Z",
+      "customer_id": "AS-CUST-85E112D0"
+    },
+    {
+      "id": 1790500828553214,
+      "application_id": "APP-0003",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "category": "आधार सेवाएँ",
+      "address": "",
+      "note": "Payment + token request",
+      "status": "Payment Verified",
+      "created_at": "2026-09-27T09:20:28.553Z",
+      "customer_id": "AS-CUST-2EA2CDA4"
+    },
+    {
+      "id": 1790504118348610,
+      "application_id": "APP-0004",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "service": "स्वास्थ्य सेवाएँ — Government health scheme application",
+      "category": "स्वास्थ्य सेवाएँ",
+      "address": "",
+      "note": "Payment + token request",
+      "status": "Payment Verified",
+      "created_at": "2026-09-27T10:15:18.348Z",
+      "customer_id": "AS-CUST-2EA2CDA4"
+    }
+  ],
+  "documents": [
+    {
+      "id": 1790501173644996,
+      "document_id": "DOC-5deac3de-5dd1-4d5f-b75b-e218482421ff",
+      "application_id": 1790500828553214,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "name": "adhar card mohti kumar.jpg",
+      "original_name": "adhar card mohti kumar.jpg",
+      "mime_type": "image/jpeg",
+      "size": 73645,
+      "sha256": "d249454016864a5203c4514ec51a5de13ea32b862d552e1772e68733016f0634",
+      "path": "b0860a05-1490-44ec-9754-41abf0647dc7.jpg",
+      "status": "uploaded",
+      "ocr_status": "failed",
+      "ocr_text": "",
+      "ocr_fields": {
+        "detected_type": "Unknown",
+        "aadhaar": null,
+        "pan": null,
+        "mobile": null,
+        "email": null,
+        "dob": null,
+        "percentage": null,
+        "total": null,
+        "obtained": null
+      },
+      "created_at": "2026-09-27T09:26:13.644Z",
+      "created_by": "AS-CUST-2EA2CDA4"
+    },
+    {
+      "id": 1790501161939448,
+      "document_id": "DOC-8be9efaa-47e2-43b5-b929-0e7db8d6438a",
+      "application_id": 1790500828553214,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "name": "adhar card mohti kumar.jpg",
+      "original_name": "adhar card mohti kumar.jpg",
+      "mime_type": "image/jpeg",
+      "size": 73645,
+      "sha256": "d249454016864a5203c4514ec51a5de13ea32b862d552e1772e68733016f0634",
+      "path": "696e69e9-d9af-4b0a-b875-e4072ddd2a4b.jpg",
+      "status": "uploaded",
+      "ocr_status": "failed",
+      "ocr_text": "",
+      "ocr_fields": {
+        "detected_type": "Unknown",
+        "aadhaar": null,
+        "pan": null,
+        "mobile": null,
+        "email": null,
+        "dob": null,
+        "percentage": null,
+        "total": null,
+        "obtained": null
+      },
+      "created_at": "2026-09-27T09:26:01.940Z",
+      "created_by": "AS-CUST-2EA2CDA4",
+      "downloaded_at": "2026-09-27T09:27:29.369Z",
+      "downloaded_by": "AS-CUST-2EA2CDA4"
+    },
+    {
+      "id": 1790501127343593,
+      "document_id": "DOC-40597050-e4b9-46e2-bc83-4076b20697d3",
+      "application_id": 1790500828553214,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "name": "sandeep.jpeg",
+      "original_name": "sandeep.jpeg",
+      "mime_type": "image/jpeg",
+      "size": 128828,
+      "sha256": "ee9e156954766e5e91c301bae612ddbace58a8f5b6312ddc0eb08235adca507e",
+      "path": "c1b368b7-cd13-4b99-9a07-f00828f5b2c0.jpg",
+      "status": "uploaded",
+      "ocr_status": "failed",
+      "ocr_text": "",
+      "ocr_fields": {
+        "detected_type": "Unknown",
+        "aadhaar": null,
+        "pan": null,
+        "mobile": null,
+        "email": null,
+        "dob": null,
+        "percentage": null,
+        "total": null,
+        "obtained": null
+      },
+      "created_at": "2026-09-27T09:25:27.345Z",
+      "created_by": "AS-CUST-2EA2CDA4"
+    },
+    {
+      "id": 1790492787001166,
+      "document_id": "DOC-ddbec588-f922-44d8-813f-3549366c13d4",
+      "application_id": 1790492786248915,
+      "customer_id": "AS-CUST-3501E9B8",
+      "name": "identity proof.jpg",
+      "original_name": "identity proof.jpg",
+      "mime_type": "image/jpeg",
+      "size": 435,
+      "sha256": "6087346acb9be5f16171411dc7532936dcd0f4ad97e889fbcbd15d969d0e98dd",
+      "path": "89269f0e-2714-4f76-a430-83a8e7c0cafb.jpg",
+      "status": "verified",
+      "ocr_status": "failed",
+      "ocr_text": "",
+      "ocr_fields": {
+        "detected_type": "Unknown",
+        "aadhaar": null,
+        "pan": null,
+        "mobile": null,
+        "email": null,
+        "dob": null,
+        "percentage": null,
+        "total": null,
+        "obtained": null
+      },
+      "created_at": "2026-09-27T07:06:27.001Z",
+      "created_by": "AS-CUST-3501E9B8",
+      "reviewed_at": "2026-09-27T07:06:27.007Z",
+      "verified_at": "2026-09-27T07:06:27.007Z",
+      "reviewed_by": "ravindram143",
+      "review_note": "E2E Admin document verification"
+    },
+    {
+      "id": 1790492786787869,
+      "document_id": "DOC-38e8cfed-fbdf-45d4-8c88-40e00628bb67",
+      "application_id": 1790492786248915,
+      "customer_id": "AS-CUST-3501E9B8",
+      "name": "Registered mobile.jpg",
+      "original_name": "Registered mobile.jpg",
+      "mime_type": "image/jpeg",
+      "size": 435,
+      "sha256": "6087346acb9be5f16171411dc7532936dcd0f4ad97e889fbcbd15d969d0e98dd",
+      "path": "fdbbe19a-5535-4888-aab2-74ff207fa6a4.jpg",
+      "status": "verified",
+      "ocr_status": "failed",
+      "ocr_text": "",
+      "ocr_fields": {
+        "detected_type": "Unknown",
+        "aadhaar": null,
+        "pan": null,
+        "mobile": null,
+        "email": null,
+        "dob": null,
+        "percentage": null,
+        "total": null,
+        "obtained": null
+      },
+      "created_at": "2026-09-27T07:06:26.788Z",
+      "created_by": "AS-CUST-3501E9B8",
+      "reviewed_at": "2026-09-27T07:06:27.005Z",
+      "verified_at": "2026-09-27T07:06:27.005Z",
+      "reviewed_by": "ravindram143",
+      "review_note": "E2E Admin document verification"
+    },
+    {
+      "id": 1790492786572224,
+      "document_id": "DOC-c301bebc-2682-4a12-97a2-4eb3c315a6e2",
+      "application_id": 1790492786248915,
+      "customer_id": "AS-CUST-3501E9B8",
+      "name": "card.jpg",
+      "original_name": "card.jpg",
+      "mime_type": "image/jpeg",
+      "size": 435,
+      "sha256": "6087346acb9be5f16171411dc7532936dcd0f4ad97e889fbcbd15d969d0e98dd",
+      "path": "c27c715a-0aa6-494f-a249-8de10fa8c177.jpg",
+      "status": "verified",
+      "ocr_status": "failed",
+      "ocr_text": "",
+      "ocr_fields": {
+        "detected_type": "Unknown",
+        "aadhaar": null,
+        "pan": null,
+        "mobile": null,
+        "email": null,
+        "dob": null,
+        "percentage": null,
+        "total": null,
+        "obtained": null
+      },
+      "created_at": "2026-09-27T07:06:26.573Z",
+      "created_by": "AS-CUST-3501E9B8",
+      "reviewed_at": "2026-09-27T07:06:27.003Z",
+      "verified_at": "2026-09-27T07:06:27.003Z",
+      "reviewed_by": "ravindram143",
+      "review_note": "E2E Admin document verification"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1790504142460641,
+      "type": "payment",
+      "severity": "success",
+      "title": "Payment Verified",
+      "message": "आपका payment verify हो गया है।",
+      "mobile": "7754861735",
+      "read": false,
+      "created_at": "2026-09-27T10:15:42.460Z",
+      "event_key": "payment:1790504118348610:1790504118379693:::Payment Verified",
+      "payment_id": 1790504118379693,
+      "application_id": 1790504118348610
+    },
+    {
+      "id": 1790501096255469,
+      "type": "payment",
+      "severity": "success",
+      "title": "Payment Verified",
+      "message": "आपका payment verify हो गया है।",
+      "mobile": "7754861735",
+      "read": false,
+      "created_at": "2026-09-27T09:24:56.255Z",
+      "event_key": "payment:1790500828553214:1790501069572357:::Payment Verified",
+      "payment_id": 1790501069572357,
+      "application_id": 1790500828553214
+    },
+    {
+      "id": 1790500899165369,
+      "type": "payment",
+      "severity": "success",
+      "title": "Payment Verified",
+      "message": "आपका payment verify हो गया है।",
+      "mobile": "7754861735",
+      "read": false,
+      "created_at": "2026-09-27T09:21:39.165Z",
+      "event_key": "payment:1790500828553214:1790500828586882:::Payment Verified",
+      "payment_id": 1790500828586882,
+      "application_id": 1790500828553214
+    },
+    {
+      "id": 1790492787210603,
+      "type": "receipt",
+      "severity": "success",
+      "title": "Receipt Generated",
+      "message": "आपकी receipt RCP-86253736 generate हो गई है।",
+      "mobile": "9000067549",
+      "read": false,
+      "created_at": "2026-09-27T07:06:27.210Z",
+      "event_key": "receipt:1790492786248915:1790492786253736:1790492787008820::Receipt Generated",
+      "payment_id": 1790492786253736,
+      "token_id": 1790492787008820,
+      "application_id": 1790492786248915,
+      "receipt_no": "RCP-86253736"
+    },
+    {
+      "id": 1790492786260424,
+      "type": "payment",
+      "severity": "success",
+      "title": "Payment Verified",
+      "message": "आपका payment verify हो गया है।",
+      "mobile": "9000067549",
+      "read": false,
+      "created_at": "2026-09-27T07:06:26.260Z",
+      "event_key": "payment:1790492786248915:1790492786253736:::Payment Verified",
+      "payment_id": 1790492786253736,
+      "application_id": 1790492786248915
+    },
+    {
+      "id": 1790492605019996,
+      "type": "incident",
+      "severity": "critical",
+      "title": "STORAGE_PERSISTENCE",
+      "message": "Persistent storage is not configured",
+      "read": false,
+      "created_at": "2026-09-27T07:03:25.019Z"
+    }
+  ],
+  "audit": [
+    {
+      "id": 1790504142460066,
+      "action": "PAYMENT_VERIFIED",
+      "payment_id": 1790504118379693,
+      "by": "ravindram143",
+      "at": "2026-09-27T10:15:42.460Z"
+    },
+    {
+      "id": 1790504138366704,
+      "action": "PAYMENT_PROOF_VIEWED",
+      "payment_id": 1790504118379693,
+      "by": "ravindram143",
+      "at": "2026-09-27T10:15:38.366Z"
+    },
+    {
+      "id": 1790504118379171,
+      "action": "PAYMENT_SUBMITTED",
+      "payment_id": 1790504118379693,
+      "by": "7754861735",
+      "at": "2026-09-27T10:15:18.379Z"
+    },
+    {
+      "id": 1790503751313166,
+      "action": "HOME_SERVICE_COMPLETE",
+      "home_service_id": "HOME-00001",
+      "staff_id": "STF-0003",
+      "by": "EMP-0003",
+      "at": "2026-09-27T10:09:11.313Z"
+    },
+    {
+      "id": 1790503748346329,
+      "action": "HOME_SERVICE_START",
+      "home_service_id": "HOME-00001",
+      "staff_id": "STF-0003",
+      "by": "EMP-0003",
+      "at": "2026-09-27T10:09:08.346Z"
+    },
+    {
+      "id": 1790503745098143,
+      "action": "HOME_SERVICE_COMPLETE",
+      "home_service_id": "HOME-00002",
+      "staff_id": "STF-0003",
+      "by": "EMP-0003",
+      "at": "2026-09-27T10:09:05.098Z"
+    },
+    {
+      "id": 1790503740742386,
+      "action": "HOME_SERVICE_START",
+      "home_service_id": "HOME-00002",
+      "staff_id": "STF-0003",
+      "by": "EMP-0003",
+      "at": "2026-09-27T10:09:00.742Z"
+    },
+    {
+      "id": 1790503575943590,
+      "action": "HOME_SERVICE_ASSIGN",
+      "home_service_id": "HOME-00002",
+      "staff_id": "STF-0003",
+      "by": "ravindram143",
+      "at": "2026-09-27T10:06:15.943Z"
+    },
+    {
+      "id": 1790503573656193,
+      "action": "HOME_SERVICE_ASSIGN",
+      "home_service_id": "HOME-00001",
+      "staff_id": "STF-0003",
+      "by": "ravindram143",
+      "at": "2026-09-27T10:06:13.656Z"
+    },
+    {
+      "id": 1790503491954221,
+      "action": "CUSTOMER_HOME_SERVICE_REQUESTED",
+      "home_service_id": "HOME-00002",
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "by": "7754861735",
+      "at": "2026-09-27T10:04:51.954Z"
+    },
+    {
+      "id": 1790501249369630,
+      "action": "DOCUMENT_DOWNLOADED",
+      "document_id": 1790501161939448,
+      "application_id": 1790500828553214,
+      "by": "AS-CUST-2EA2CDA4",
+      "at": "2026-09-27T09:27:29.369Z"
+    },
+    {
+      "id": 1790501232842037,
+      "action": "SOP_UPDATED",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "by": "ravindram143",
+      "at": "2026-09-27T09:27:12.842Z"
+    },
+    {
+      "id": 1790501173644000,
+      "action": "CUSTOMER_DOCUMENTS_UPLOADED",
+      "application_id": 1790500828553214,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "count": 1,
+      "by": "7754861735",
+      "at": "2026-09-27T09:26:13.644Z"
+    },
+    {
+      "id": 1790501161940854,
+      "action": "CUSTOMER_DOCUMENTS_UPLOADED",
+      "application_id": 1790500828553214,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "count": 1,
+      "by": "7754861735",
+      "at": "2026-09-27T09:26:01.940Z"
+    },
+    {
+      "id": 1790501127345264,
+      "action": "CUSTOMER_DOCUMENTS_UPLOADED",
+      "application_id": 1790500828553214,
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "count": 1,
+      "by": "7754861735",
+      "at": "2026-09-27T09:25:27.345Z"
+    },
+    {
+      "id": 1790501096255755,
+      "action": "PAYMENT_VERIFIED",
+      "payment_id": 1790501069572357,
+      "by": "ravindram143",
+      "at": "2026-09-27T09:24:56.255Z"
+    },
+    {
+      "id": 1790501091016921,
+      "action": "PAYMENT_PROOF_VIEWED",
+      "payment_id": 1790501069572357,
+      "by": "ravindram143",
+      "at": "2026-09-27T09:24:51.016Z"
+    },
+    {
+      "id": 1790501069572618,
+      "action": "PAYMENT_SUBMITTED",
+      "payment_id": 1790501069572357,
+      "by": "7754861735",
+      "at": "2026-09-27T09:24:29.572Z"
+    },
+    {
+      "id": 1790500946581119,
+      "action": "PAYMENT_PROOF_VIEWED",
+      "payment_id": 1790500828586882,
+      "by": "ravindram143",
+      "at": "2026-09-27T09:22:26.580Z"
+    },
+    {
+      "id": 1790500899165300,
+      "action": "PAYMENT_VERIFIED",
+      "payment_id": 1790500828586882,
+      "by": "ravindram143",
+      "at": "2026-09-27T09:21:39.164Z"
+    },
+    {
+      "id": 1790500894200175,
+      "action": "PAYMENT_PROOF_VIEWED",
+      "payment_id": 1790500828586882,
+      "by": "ravindram143",
+      "at": "2026-09-27T09:21:34.199Z"
+    },
+    {
+      "id": 1790500828587017,
+      "action": "PAYMENT_SUBMITTED",
+      "payment_id": 1790500828586882,
+      "by": "7754861735",
+      "at": "2026-09-27T09:20:28.587Z"
+    },
+    {
+      "id": 1790500753126351,
+      "action": "STAFF_LOGIN",
+      "staff_id": "STF-0003",
+      "by": "EMP-0003",
+      "at": "2026-09-27T09:19:13.126Z"
+    },
+    {
+      "id": 1790500741285439,
+      "action": "ADMIN_STAFF_ACTIVITY",
+      "staff_id": "STF-0001",
+      "employee_id": "EMP-0001",
+      "activity": "DEACTIVATE",
+      "by": "admin",
+      "at": "2026-09-27T09:19:01.285Z"
+    },
+    {
+      "id": 1790500740310986,
+      "action": "ADMIN_STAFF_ACTIVITY",
+      "staff_id": "STF-0002",
+      "employee_id": "EMP-0002",
+      "activity": "DEACTIVATE",
+      "by": "admin",
+      "at": "2026-09-27T09:19:00.310Z"
+    },
+    {
+      "id": 1790500668354324,
+      "action": "CUSTOMER_REGISTERED",
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "by": "7754861735",
+      "at": "2026-09-27T09:17:48.354Z"
+    },
+    {
+      "id": 1790500646290777,
+      "action": "ADMIN_LOGIN",
+      "by": "ravindram143",
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "at": "2026-09-27T09:17:26.291Z"
+    },
+    {
+      "id": 1790492787228208,
+      "action": "ADMIN_LOGOUT",
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.228Z"
+    },
+    {
+      "id": 1790492787226073,
+      "action": "CUSTOMER_LOGOUT",
+      "customer_id": "AS-CUST-3501E9B8",
+      "by": "9000067549",
+      "at": "2026-09-27T07:06:27.226Z"
+    },
+    {
+      "id": 1790492787223264,
+      "action": "SYSTEM_INTEGRITY_CHECK",
+      "ok": true,
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.223Z"
+    },
+    {
+      "id": 1790492787210113,
+      "action": "STAFF_TASK_COMPLETE",
+      "token_id": 1790492787008820,
+      "staff_id": "STF-0002",
+      "by": "EMP-0002",
+      "at": "2026-09-27T07:06:27.210Z"
+    },
+    {
+      "id": 1790492787210636,
+      "action": "RECEIPT_AUTO_GENERATED",
+      "payment_id": 1790492786253736,
+      "token_id": 1790492787008820,
+      "receipt_no": "RCP-86253736",
+      "by": "EMP-0002",
+      "at": "2026-09-27T07:06:27.210Z"
+    },
+    {
+      "id": 1790492787208658,
+      "action": "QUALITY_CHECK_PASSED",
+      "token_id": 1790492787008820,
+      "application_id": 1790492786248915,
+      "staff_id": "STF-0002",
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.208Z"
+    },
+    {
+      "id": 1790492787205370,
+      "action": "QUALITY_REVIEW_SUBMITTED",
+      "token_id": 1790492787008820,
+      "staff_id": "STF-0002",
+      "by": "EMP-0002",
+      "at": "2026-09-27T07:06:27.205Z"
+    },
+    {
+      "id": 1790492787200393,
+      "action": "STAFF_TASK_START",
+      "token_id": 1790492787008820,
+      "staff_id": "STF-0002",
+      "by": "EMP-0002",
+      "at": "2026-09-27T07:06:27.200Z"
+    },
+    {
+      "id": 1790492787199223,
+      "action": "STAFF_LOGIN",
+      "staff_id": "STF-0002",
+      "by": "EMP-0002",
+      "at": "2026-09-27T07:06:27.199Z"
+    },
+    {
+      "id": 1790492787158116,
+      "action": "ADMIN_TOKEN_NEXT",
+      "token_id": 1790492787008820,
+      "from_status": "लंबित",
+      "status": "बुलाया",
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.158Z"
+    },
+    {
+      "id": 1790492787157096,
+      "action": "ADMIN_STAFF_ACTIVITY",
+      "staff_id": "STF-0002",
+      "employee_id": "EMP-0002",
+      "activity": "ASSIGN",
+      "by": "admin",
+      "at": "2026-09-27T07:06:27.157Z"
+    },
+    {
+      "id": 1790492787157084,
+      "action": "TOKEN_ASSIGNED",
+      "token_id": 1790492787008820,
+      "staff_id": "STF-0002",
+      "by": "admin",
+      "at": "2026-09-27T07:06:27.157Z"
+    },
+    {
+      "id": 1790492787112544,
+      "action": "STAFF_LOGIN",
+      "staff_id": "STF-0001",
+      "by": "EMP-0001",
+      "at": "2026-09-27T07:06:27.112Z"
+    },
+    {
+      "id": 1790492787009237,
+      "action": "TOKEN_GENERATED",
+      "payment_id": 1790492786253736,
+      "token_id": 1790492787008820,
+      "application_id": 1790492786248915,
+      "by": "9000067549",
+      "at": "2026-09-27T07:06:27.009Z"
+    },
+    {
+      "id": 1790492787007141,
+      "action": "DOCUMENT_STATUS_UPDATED",
+      "document_id": 1790492787001166,
+      "application_id": 1790492786248915,
+      "status": "verified",
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.007Z"
+    },
+    {
+      "id": 1790492787005468,
+      "action": "DOCUMENT_STATUS_UPDATED",
+      "document_id": 1790492786787869,
+      "application_id": 1790492786248915,
+      "status": "verified",
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.005Z"
+    },
+    {
+      "id": 1790492787003577,
+      "action": "DOCUMENT_STATUS_UPDATED",
+      "document_id": 1790492786572224,
+      "application_id": 1790492786248915,
+      "status": "verified",
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:27.003Z"
+    },
+    {
+      "id": 1790492787001341,
+      "action": "CUSTOMER_DOCUMENTS_UPLOADED",
+      "application_id": 1790492786248915,
+      "customer_id": "AS-CUST-3501E9B8",
+      "count": 3,
+      "by": "9000067549",
+      "at": "2026-09-27T07:06:27.001Z"
+    },
+    {
+      "id": 1790492786260139,
+      "action": "PAYMENT_VERIFIED",
+      "payment_id": 1790492786253736,
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:26.260Z"
+    },
+    {
+      "id": 1790492786256221,
+      "action": "PAYMENT_PROOF_VIEWED",
+      "payment_id": 1790492786253736,
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:26.256Z"
+    },
+    {
+      "id": 1790492786253526,
+      "action": "PAYMENT_SUBMITTED",
+      "payment_id": 1790492786253736,
+      "by": "9000067549",
+      "at": "2026-09-27T07:06:26.253Z"
+    },
+    {
+      "id": 1790492786245630,
+      "action": "CUSTOMER_HOME_SERVICE_REQUESTED",
+      "home_service_id": "HOME-00001",
+      "customer_id": "AS-CUST-3501E9B8",
+      "by": "9000067549",
+      "at": "2026-09-27T07:06:26.245Z"
+    },
+    {
+      "id": 1790492786240766,
+      "action": "CUSTOMER_REGISTERED",
+      "customer_id": "AS-CUST-3501E9B8",
+      "by": "9000067549",
+      "at": "2026-09-27T07:06:26.240Z"
+    },
+    {
+      "id": 1790492786178876,
+      "action": "SYSTEM_INTEGRITY_CHECK",
+      "ok": true,
+      "by": "ravindram143",
+      "at": "2026-09-27T07:06:26.178Z"
+    },
+    {
+      "id": 1790492786175489,
+      "action": "ADMIN_LOGIN",
+      "by": "ravindram143",
+      "ip": "127.0.0.1",
+      "user_agent": "",
+      "at": "2026-09-27T07:06:26.175Z"
+    }
+  ],
+  "offers": [],
+  "service_charges": [],
+  "customer_sessions": [
+    {
+      "id": 1790500668354486,
+      "sid": "3a8c561e76f0b010c1cb2471d8f34ba79cd2",
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "mobile": "7754861735",
+      "created_at": "2026-09-27T09:17:48.354Z",
+      "expires_at": "2026-10-27T09:17:48.354Z",
+      "revoked_at": null
+    }
+  ],
+  "customer_qr": [],
+  "admin_sessions": [
+    {
+      "sid": "dc7ac5c0a0e70a08b0c470e262421a4b88f1",
+      "user": "ravindram143",
+      "created_at": "2026-09-27T09:17:26.290Z",
+      "expires_at": "2026-09-27T17:17:26.290Z",
+      "revoked_at": null
+    }
+  ],
+  "admin_credentials": [
+    {
+      "username": "ravindram143",
+      "salt": "f840de15c6eb50de3b9aaa6711865db0",
+      "hash": "b25f1bb8ca658c871006e2119e8c6cfca76c81899289fb32b54cea0e1665d27bccb9f5193ed7c8cee686545349f887e81fa5234235f6e1aeffb3eaf197c32018",
+      "created_at": "2026-09-27T07:06:26.133Z",
+      "updated_at": "2026-09-27T07:06:26.133Z",
+      "source": "environment-bootstrap"
+    }
+  ],
+  "staff_sessions": [
+    {
+      "sid": "be4eb2922d74309aa6e959962631f24fa825",
+      "staff_id": "STF-0003",
+      "created_at": "2026-09-27T09:19:13.126Z",
+      "expires_at": "2026-09-27T21:19:13.126Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": 1790492787068278,
+      "staff_id": "STF-0001",
+      "employee_id": "EMP-0001",
+      "name": "E2E Viewer Staff",
+      "mobile": "9222275965",
+      "role": "viewer",
+      "status": "inactive",
+      "daily_rate": 250,
+      "pin_hash": "b7a71a0a80cf323a7f336eceb7da5752b90a3eb0ed1c23a32c4b689321d939036a64e7febd40483a7809c11ffd334db50895106fe21d2b6c94de51859dfae5c8",
+      "pin_salt": "6dfac70069241bc621020931b410d53a",
+      "created_at": "2026-09-27T07:06:27.069Z",
+      "updated_at": "2026-09-27T07:06:27.069Z"
+    },
+    {
+      "id": 1790492787155720,
+      "staff_id": "STF-0002",
+      "employee_id": "EMP-0002",
+      "name": "E2E Test Staff",
+      "mobile": "9111174074",
+      "role": "staff",
+      "status": "inactive",
+      "daily_rate": 300,
+      "pin_hash": "78b19cf32a48188445eef93b6141c264c204ec8e5ddfcfac04297c2425dc7b6142a3d160ef1ba20e1bc322893c985e51cae2917806c733d6b61219a6578ac747",
+      "pin_salt": "629693e92f0ad8cf80afccc18c5f7e97",
+      "created_at": "2026-09-27T07:06:27.155Z",
+      "updated_at": "2026-09-27T07:06:27.155Z"
+    },
+    {
+      "id": 1790500732121052,
+      "staff_id": "STF-0003",
+      "employee_id": "EMP-0003",
+      "name": "vipin kumar",
+      "mobile": "8563881833",
+      "role": "staff",
+      "status": "active",
+      "daily_rate": 50,
+      "pin_hash": "af6833161f4fc2a54e260621ebef0eaa134669cc7eba35e40bd9166a2a803cc72f3890f1b7db49669f660bd49ab9d10d6138f76f7840d2d7a258b25f19cb170f",
+      "pin_salt": "74f6d021156452686c29c636f908169c",
+      "created_at": "2026-09-27T09:18:52.122Z",
+      "updated_at": "2026-09-27T09:18:52.122Z"
+    }
+  ],
+  "staff_roles": [],
+  "appointments": [],
+  "service_orders": [],
+  "home_services": [
+    {
+      "id": 1790503491954896,
+      "home_service_id": "HOME-00002",
+      "customer_id": "AS-CUST-2EA2CDA4",
+      "name": "RAHUL MAURYA",
+      "mobile": "7754861735",
+      "service": "आधार सेवाएँ — Aadhaar Mobile Update",
+      "address": "Jamua urf bhawanipur",
+      "preferred_date": "2026-10-28",
+      "preferred_time": "10:34",
+      "status": "Completed",
+      "staff_id": "STF-0003",
+      "home_service_fee": 50,
+      "travel_cost": 0,
+      "staff_allowance": 20,
+      "created_at": "2026-09-27T10:04:51.954Z",
+      "assigned_at": "2026-09-27T10:06:15.943Z",
+      "completed_at": "2026-09-27T10:09:05.098Z"
+    },
+    {
+      "id": 1790492786244714,
+      "home_service_id": "HOME-00001",
+      "customer_id": "AS-CUST-3501E9B8",
+      "name": "E2E Test Customer",
+      "mobile": "9000067549",
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "address": "E2E Test Address",
+      "preferred_date": "2026-09-28",
+      "preferred_time": "10:00",
+      "status": "Completed",
+      "staff_id": "STF-0003",
+      "home_service_fee": 50,
+      "travel_cost": 0,
+      "staff_allowance": 20,
+      "created_at": "2026-09-27T07:06:26.245Z",
+      "assigned_at": "2026-09-27T10:06:13.656Z",
+      "completed_at": "2026-09-27T10:09:11.313Z"
+    }
+  ],
+  "deliveries": [],
+  "commissions": [],
+  "settlements": [],
+  "expenses": [],
+  "complaints": [],
+  "staff_attendance": [],
+  "service_sops": [
+    {
+      "id": 1790501232842706,
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "created_at": "2026-09-27T09:27:12.842Z",
+      "documents": [
+        "Aadhaar number/card",
+        "Registered mobile",
+        "Valid address/identity proof"
+      ],
+      "steps": [
+        "Address update requirement verify करें",
+        "Authorised Aadhaar workflow में details दर्ज करें",
+        "Required verification पूरा करें",
+        "Acknowledgement/receipt दें"
+      ],
+      "checks": [
+        {
+          "id": "check_1",
+          "label": "Customer identity/details verified",
+          "required": true
+        },
+        {
+          "id": "check_2",
+          "label": "All required documents received and readable",
+          "required": true
+        },
+        {
+          "id": "check_3",
+          "label": "Entered data cross-checked with documents",
+          "required": true
+        },
+        {
+          "id": "check_4",
+          "label": "Applicable fee/charges confirmed",
+          "required": true
+        },
+        {
+          "id": "check_5",
+          "label": "Submission/acknowledgement/reference captured",
+          "required": true
+        }
+      ],
+      "note": "Aadhaar की official UIDAI fee दिखायी गई है; authorised Aadhaar centre पर अतिरिक्त/मनमाना Aadhaar charge न जोड़ें。",
+      "updated_at": "2026-09-27T09:27:12.842Z",
+      "updated_by": "ravindram143"
+    }
+  ],
+  "service_checklists": [],
+  "service_quality": [
+    {
+      "id": 1790492787205089,
+      "token_id": 1790492787008820,
+      "service": "आधार सेवाएँ — Aadhaar Address Update",
+      "staff_id": "STF-0002",
+      "checks": [
+        {
+          "id": "identity",
+          "label": "Customer identity/details verified",
+          "required": true,
+          "checked": true
+        },
+        {
+          "id": "documents",
+          "label": "All required documents received and readable",
+          "required": true,
+          "checked": true
+        },
+        {
+          "id": "data",
+          "label": "Entered data cross-checked with documents",
+          "required": true,
+          "checked": true
+        },
+        {
+          "id": "fee",
+          "label": "Applicable fee/charges confirmed",
+          "required": true,
+          "checked": true
+        },
+        {
+          "id": "submission",
+          "label": "Submission/acknowledgement/reference captured",
+          "required": true,
+          "checked": true
+        }
+      ],
+      "status": "passed",
+      "review_stage": "admin",
+      "notes": "E2E admin final quality review",
+      "rejection_reason": null,
+      "reviewed_at": "2026-09-27T07:06:27.208Z",
+      "reviewed_by": "ravindram143",
+      "updated_at": "2026-09-27T07:06:27.208Z",
+      "updated_by": "ravindram143"
+    }
+  ],
+  "service_configs": [],
+  "incidents": [
+    {
+      "id": 1790492605018127,
+      "key": "ANGEL-STORAGE_PERSISTENCE",
+      "type": "STORAGE_PERSISTENCE",
+      "severity": "critical",
+      "status": "open",
+      "message": "Persistent storage is not configured",
+      "opened_at": "2026-09-27T07:03:25.019Z",
+      "last_seen_at": "2026-09-27T10:17:16.019Z",
+      "source": "startup",
+      "alert_sent": false,
+      "alert_result": {
+        "configured": false,
+        "sent": false
+      }
+    }
+  ],
+  "settings": {
+    "centre": "Angelstore CSC",
+    "operator": "Ravindra Maurya",
+    "notify": "On",
+    "counters": "4",
+    "fee": "50",
+    "footer": "धन्यवाद! फिर सेवा का अवसर दें",
+    "upi_id": "",
+    "payee_name": "",
+    "payment_qr_path": "assets/payment-qr.jpg"
+  },
+  "meta": {
+    "schema_version": 2,
+    "migrated_at": "2026-09-27T07:03:25.017Z",
+    "write_revision": 71,
+    "last_saved_at": "2026-09-27T10:17:16.022Z"
+  },
+  "custom_services": []
+}
