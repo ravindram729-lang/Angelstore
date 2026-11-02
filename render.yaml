@@ -1,0 +1,43 @@
+services:
+  - type: web
+    name: angelstore-csc-project4
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    disk:
+      name: angelstore-data
+      mountPath: /var/data/angelstore
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ANGELSTORE_CORS_ORIGIN
+        value: https://eloquent-tulumba-26fd2e.netlify.app
+      - key: ANGELSTORE_STORAGE_DIR
+        value: /var/data/angelstore
+      - key: ANGELSTORE_ADMIN_USER
+        sync: false
+      - key: ANGELSTORE_ADMIN_PASS
+        sync: false
+      - key: ANGELSTORE_AUTH_SECRET
+        generateValue: true
+      - key: ANGELSTORE_SCHEDULED_BACKUP
+        value: true
+      - key: ANGELSTORE_BACKUP_INTERVAL_HOURS
+        value: 24
+      - key: ANGELSTORE_BACKUP_RETENTION
+        value: 14
+      - key: ANGELSTORE_OFFSITE_BACKUP_URL
+        sync: false
+      - key: ANGELSTORE_OFFSITE_BACKUP_TOKEN
+        sync: false
+      - key: ANGELSTORE_OFFSITE_BACKUP_ENCRYPTION_KEY
+        generateValue: true
+      - key: ANGELSTORE_ALERT_WEBHOOK_URL
+        sync: false
+      - key: ANGELSTORE_ALERT_WEBHOOK_TOKEN
+        sync: false
+      - key: ANGELSTORE_MONITOR_INTERVAL_MINUTES
+        value: 15

@@ -1,0 +1,6 @@
+ANGELSTORE CSC - IMPORTANT
+
+Windows par portal chalane ke liye START-ANGELSTORE.bat par double-click karein.
+admin.html ya customer.html ko direct double-click na karein.
+Browser me URL http://127.0.0.1:8000/admin.html ya /customer.html hona chahiye.
+Backend CMD window ko portal use karte waqt band na karein.
